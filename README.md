@@ -11,9 +11,11 @@ Just download latest version and start a new project.
 2. Change to current folder with: cd C:\Users\ll_stsekeid\Desktop\CRO_Roadbook_QT
 3. Insert: pyuic5 -x qtdesigner.ui -o qtdesigner.py
 4. In your directory there is a new file qtdesigner.py
-5. Execute qtdesigner.py in Spyder ![firstGUI](/img/firstGUI.jpeg)
+5. Execute qtdesigner.py in Spyder
+![firstGUI](/img/firstGUI.jpeg)
 
 ### First Photo on GUI
 1. Take the existing label and choose a image in the row pixmap
 2. For example hochschulekempten.jpeg
-5. Current GUI ![photo](/img/firstPhotoGUI.jpeg)
+5. Current GUI
+![photo](/img/firstPhotoGUI.jpeg)
