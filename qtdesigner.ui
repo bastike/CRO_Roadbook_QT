@@ -27,17 +27,23 @@
      <string>First Button!</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label1">
+   <widget class="QLabel" name="photo">
     <property name="geometry">
      <rect>
-      <x>220</x>
-      <y>130</y>
-      <width>221</width>
-      <height>61</height>
+      <x>10</x>
+      <y>10</y>
+      <width>131</width>
+      <height>71</height>
      </rect>
     </property>
     <property name="text">
-     <string>First Label!</string>
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>img/hochschulekempten.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
     </property>
    </widget>
   </widget>

@@ -17,9 +17,12 @@ class Ui_MainWindow(object):
         self.button1 = QtWidgets.QPushButton(self.centralwidget)
         self.button1.setGeometry(QtCore.QRect(220, 220, 231, 61))
         self.button1.setObjectName("button1")
-        self.label1 = QtWidgets.QLabel(self.centralwidget)
-        self.label1.setGeometry(QtCore.QRect(220, 130, 221, 61))
-        self.label1.setObjectName("label1")
+        self.photo = QtWidgets.QLabel(self.centralwidget)
+        self.photo.setGeometry(QtCore.QRect(10, 10, 131, 71))
+        self.photo.setText("")
+        self.photo.setPixmap(QtGui.QPixmap("img/hochschulekempten.jpg"))
+        self.photo.setScaledContents(True)
+        self.photo.setObjectName("photo")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 638, 21))
@@ -36,7 +39,6 @@ class Ui_MainWindow(object):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
         self.button1.setText(_translate("MainWindow", "First Button!"))
-        self.label1.setText(_translate("MainWindow", "First Label!"))
 
 
 if __name__ == "__main__":
