@@ -11,3 +11,4 @@ Just download latest version and start a new project.
 2. Change to current folder with: cd C:\Users\ll_stsekeid\Desktop\CRO_Roadbook_QT
 3. Insert: pyuic5 -x qtdesigner.ui -o qtdesigner.py
 4. In your directory there is a new file qtdesigner.py
+5. Execute qtdesigner.py in Spyder ![firstGUI](/img/firstGUI.jpeg)
