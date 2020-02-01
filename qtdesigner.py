@@ -8,28 +8,39 @@
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 from OtherWindow import Ui_OtherWindow
-
+from A7S_window import Ui_A7S_window
 
 
 
 class Ui_MainWindow(object):
-    
-    
+
     def openWindow(self):
         self.window = QtWidgets.QMainWindow()
         self.ui = Ui_OtherWindow()
         self.ui.setupUi(self.window)
-        MainWindow.close()
-        self.window.show()
-            
-    
-    
+        #MainWindow.close() #close MainWindow when opening another window
+        #self.window.show()
+        
+    def openA7SWindow(self):
+        self.window2 = QtWidgets.QMainWindow()
+        self.ui2 = Ui_A7S_window()
+        self.ui2.setupUi(self.window2)
+        #MainWindow.close() #close MainWindow when opening another window
+        #self.window2.show()
+        
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(656, 461)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         #self.centralwidget.setCurrentIndex(1) #        
+
+
+        self.buttonA7S = QtWidgets.QPushButton(self.centralwidget)
+        self.buttonA7S.setGeometry(QtCore.QRect(200, 110, 231, 61))
+        self.buttonA7S.setObjectName("A7S")
+        self.buttonA7S.clicked.connect(self.openA7SWindow)
+
         
         self.button1 = QtWidgets.QPushButton(self.centralwidget)
         self.button1.setGeometry(QtCore.QRect(200, 210, 231, 61))
@@ -68,6 +79,7 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        self.buttonA7S.setText(_translate("MainWindow", "A7 Dietmannsried - Nesselwang"))
         self.button1.setText(_translate("MainWindow", "First Button!"))
 
 
