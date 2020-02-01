@@ -34,3 +34,9 @@ Just download latest version and start a new project.
 2. define new class in main_window.py file
 3. Execute the main_window.py to see the current firstGUI
 ![photo](/img/ManagingThreeWindows.JPG)
+
+
+### Include HTML Map
+1. Updating A7_window.py file
+2. Execute the main_window.py to see the current firstGUI
+![photo](/img/IncludeHTML.JPG)

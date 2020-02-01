@@ -12,15 +12,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 
 class Ui_OtherWindow(object):
 
-#    def openWindow(self):
-#        self.window = QtWidgets.QMainWindow()
-#        self.ui = Ui_MainWindow()
-#        self.ui.setupUi(self.window)
-#        OtherWindow.hide()
-#        self.window.show()    
-    
-    
-    
+
     def setupUi(self, OtherWindow):
         
         OtherWindow.setObjectName("Dialog")
