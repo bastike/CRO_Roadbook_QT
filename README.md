@@ -17,5 +17,13 @@ Just download latest version and start a new project.
 ### First Photo on GUI
 1. Take the existing label and choose a image in the row pixmap
 2. For example hochschulekempten.jpeg
-5. Current GUI
+3. Current GUI
 ![photo](/img/firstPhotoGUI.jpeg)
+
+
+### Add second window
+1. Create new OtherWindow.py file
+2. Create a main_window.py file to manage the two windows
+3. Execute the main_window.py to see the current firstGUI
+![photo](/img/MainWindow.JPG)
+![photo](/img/OtherWindow.JPG)
